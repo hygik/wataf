@@ -1,0 +1,42 @@
+ /* Основные стили */
+ body {
+    background-color: #000000;
+    color:rgba(189, 243, 221, 0.86);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Стили для изображений */
+img {
+    border: 2px solid rgba(159, 190, 178, 0.86);
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Стили для ссылок */
+a {
+    color:rgb(11, 66, 36);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(18, 104, 57);;
+    text-decoration: underline;
+}
+
+/* Выделенные блоки */
+.highlight {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+/* Подвал */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
